@@ -1,6 +1,8 @@
-# A Neural Network Classifier with Bidirectional LSTM
+# Onion, or Not the Onion? Can AI Spot the Satire?
+Fake news has become a huge problem in today’s society, as internet-based news sources resort to intentionally provocative headlines and articles to compete for users’ attention. As a subcategory of fake news, the detection of satire is important to determine which headlines should and shouldn’t be interpreted as factual. In this project, we present a survey of different machine learning methods to distinguish satirical article headlines from The Onion and non-satirical headlines from reputable news sources. 
 
-This project uses Neural Network classifier with Bidirectional LSTM for OnionOrNot fake news detection. We use [Kaggle dataset](https://raw.githubusercontent.com/lukefeilberg/onion/master/OnionOrNot.csv) and [Keras deep learning library](https://keras.io/) in Python.
+# Bi-LSTM
+ We use [Kaggle dataset](https://raw.githubusercontent.com/lukefeilberg/onion/master/OnionOrNot.csv) and [Keras deep learning library](https://keras.io/) in Python.
 
 - [A Brief Introduction to Bi-LSTM](#a-brief-introduction-to-bi-lstm)
 - [The Model](#the-model)
@@ -92,7 +94,7 @@ print("f1 score: ", f1_score(y_pred, y_test))
 
 # A Naive Bayes Classifier with TF-IDF 
 
-This project uses Naive Bayes classifier on TF-IDF vectorized matrix for OnionOrNot fake news detection. We use [Kaggle dataset](https://raw.githubusercontent.com/lukefeilberg/onion/master/OnionOrNot.csv) and [Scikit learn library](https://scikit-learn.org/stable/) in Python.
+We also used Naive Bayes classifier on TF-IDF vectorized matrix for OnionOrNot fake news detection. We use [Kaggle dataset](https://raw.githubusercontent.com/lukefeilberg/onion/master/OnionOrNot.csv) and [Scikit learn library](https://scikit-learn.org/stable/) in Python.
 
 - [A Brief Summary of TF-IDF](##A-Brief-Summary-of-TF-IDF)
 - [Import Libraries](##Import-Libraries)
