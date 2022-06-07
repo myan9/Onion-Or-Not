@@ -92,6 +92,11 @@ print("f1 score: ", f1_score(y_pred, y_test))
 
 ```
 
+Accuracy: 0.8581
+
+F1 Score: 0.8190
+
+
 # A Naive Bayes Classifier with TF-IDF 
 
 We also used Naive Bayes classifier on TF-IDF vectorized matrix for OnionOrNot fake news detection. We use [Kaggle dataset](https://raw.githubusercontent.com/lukefeilberg/onion/master/OnionOrNot.csv) and [Scikit learn library](https://scikit-learn.org/stable/) in Python.
@@ -230,3 +235,7 @@ print("precision: ", precision_score(test_y, pred))
 print("recall: ", recall_score(test_y, pred))
 print("f1: ", f1_score(test_y, pred))
 ```
+
+Accuracy: 0.8243
+
+F1 Score: 0.7104
